@@ -343,6 +343,9 @@ footer {
     padding-bottom: 0.5em;
     padding-left: 1em;
     background: #303030;
+    .rechtliches {
+        text-align: right;
+    }
     strong {
         color: var(--primary-color);
     }
