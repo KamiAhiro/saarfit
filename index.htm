@@ -1,10 +1,281 @@
 <!DOCTYPE html>
-<title>
-</title>
-<head>
-</head>
-<body>
-  <h1>
-    Hello World
-  </h1>
-</body>
+<html lang="de">
+	<style>
+	table, th, td {
+	border-bottom: 1px solid gray;
+	border-spacing: 50px;
+	}
+	</style>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Das Saarland fit und gesund halten.">
+		<meta name="keywords" content="Fitness, Studio, Saarland">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>
+			&#128511; SaarFit 
+		</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+
+	<body>
+		<div class="navbar">
+			<div class="container">
+				<a href="index.htm"><img src="images/logo199x81.png" alt="SaarFit" height="50"></a>
+				
+				<!-- <a href="index.htm">SaarFit</a> -->
+				<img id="mobile" class="mobile-menu" src="images/menu.svg" alt="Navigation">
+
+				<nav>
+					<img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Navigation Exit">
+					<ul class="primary-nav">
+						<li><a href="#studio">STUDIOS</a></li>
+						<li><a href="#prices">PREISE</a></li>
+						<li><a href="#services">LEISTUNGEN</a></li>
+						<li><a href="#news">NEWS</a></li>
+						<li><a href="#contact">KONTAKT</a></li>
+					</ul>
+					<ul class="secondary-nav">
+						<li><a href="login.htm">LOGIN</a></li>
+						<li class="mitglied"><a href="registrieren.htm">MITGLIED WERDEN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<section class="hero">
+			<div class="container">
+				<h1>Das Saarland fit halten!</h1>
+				<p class="subhead">SaarFit, die größte Fitnessstudio-Kette im Saarland &amp; Umgebung Trier</p>
+
+				<a href="registrieren.htm" class="primary">Jetzt anmelden</a>
+			</div>
+		</section>
+
+		<section class="studio" id="studio">
+			<div class="studio-locations">
+				<div class="studio-list-left">
+					<ul>
+						<li>Trier</li>
+						<li>Merzig</li>
+						<li>Dillingen</li>
+						<li>Saarlouis</li>
+						<li>Völklingen</li>
+						<li>Saarbrücken</li>
+						<li>St.Ingbert</li>
+						<li>St.Wendel</li>
+						<li>Neunkirchen</li>
+					</ul>
+				</div>
+				<div class="studio-list-right">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d332515.155312208!2d6.600236514716328!3d49.375336817273535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4795a4efc2a81f31%3A0x122d4d510dc7970!2sSaarland!5e0!3m2!1sde!2sde!4v1633641956317!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>
+		</section>
+
+		<section class="prices" id="prices">
+			<div class="container">
+				<ul>
+					<a href="registrieren.htm">
+					<li class="premium">
+						<h6>
+							Premium
+						</h6>
+						<p class="price">
+							6,99€/Woche
+						</p>
+						<p>
+							Mindestlaufzeit: 54 Wochen
+						</p>
+					</li>
+					</a>
+					<a href="registrieren.htm">
+					<li class="daylight">
+						<h6>
+							Daylight
+						</h6>
+						<p class="price">
+							4,99€/Woche
+						</p>
+						<p>
+							Mindestlaufzeit: 54 Wochen
+						</p>
+					</li>
+					</a>
+					<a href="registrieren.htm">
+					<li class="weekly">
+						<h6>
+							Weekly
+						</h6>
+						<p class="price">
+							8,99€/Woche
+						</p>
+						<p>
+							Monatlich kündbar
+						</p>
+					</li>
+					</a>
+				</ul>
+			</div>
+		</section>
+		
+		<section class="services" id="services">
+			<div class="container">
+				<br><br><p>Services</p><br><br>
+			</div>
+		</section>
+
+		<section class="news" id="news">
+			<div class="container">
+				<br><br><p>News</p><br><br>
+			</div>
+		</section>
+
+		<section class="contact" id="contact">
+				<div class="container">
+					<div class="contact-left">
+						<h2>
+							Kontakt
+						</h2>
+						<form action="">
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" placeholder="Nachname, Vorname">
+
+							<label for="email">E-Mail</label>
+							<input type="email" id="email" name="email" placeholder="popopiraten@gmail.com">
+
+							<label for="message">Nachricht</label>
+							<textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+							<input type="submit" class="send-message" value="Nachricht senden">
+						</form>
+					</div>
+
+					<div class="contact-right">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.2342044660654!2d6.976320680876737!3d49.23404867942726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4795b3fe6c6fc073%3A0x6f208e4bd8e0c4f4!2sKompetenz%20Center%20ELIT-Saar%20GbR!5e0!3m2!1sde!2sde!4v1633639675002!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div>
+		</section>
+
+		<footer>
+			<div class="container">
+			<strong>
+				SaarFit GmbH
+			</strong>
+			<ul class="footer-contact">
+				<li>
+					<p>
+						Am Popoplatz 1-126a
+					</p>
+				</li>	
+				<li>	
+					<p>
+						35510 Butzbach
+					</p>
+				</li>	
+				<li>
+					<a href="mailto:popopiraten@gmail.com">
+						popopiraten@gmail.com
+					</a>
+				</li>
+			</ul>
+			<strong>
+				RECHTLICHES
+			</strong>
+			<ul class="footer-rechtliches">
+				<li>
+					<a href="#">
+						Datenschutz
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Impressum
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						AGB
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Cookie-Einstellungen
+					</a>
+				</li>
+			</ul>
+			</div>
+		</footer>
+<!--
+		<header>
+			<nav>
+			
+			</nav>
+			<h1>
+				SaarFit Gmbh
+				<img src="images/logo.png" alt="SaarFit" height="100">
+			</h1>
+		</header>
+	
+		<main>
+			
+		
+			<h6 title="Das hier ist ein Test"> Test </h6>
+		
+			<hr>
+			<button onclick="document.location='informationen.htm'">Weitere Informationen</button>
+			<button onclick="document.location='login.htm'">Login</button>
+		
+			<table style="font-size:50px; font-family:Arial; color:white;">
+				<thead>
+					<tr>
+						<th>Angebot 1</th>
+						<th>Angebot 2</th>
+						<th>Angebot 3</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Daylight Yearly</td>
+						<td>All-Time Yearly</td>
+						<td>All-Time Weekly</td>
+					</tr>
+					<tr>
+						<td>Von 9 Uhr bis 16 Uhr</td>
+						<td>Von 5 Uhr bis 22 Uhr</td>
+						<td>Von 5 Uhr bis 22 Uhr</td>
+					</tr>
+					<tr>
+						<td>4,99€ Woche/Jahr</td>
+						<td>6,99€ Woche/Jahr</td>
+						<td>7,99€ Woche (Monatlich kündbar)</td>
+					</tr>
+				</tbody>
+			</table>
+		
+		</main>
+		
+		<footer>
+		
+		</footer>
+-->
+
+	<script>
+
+		const mobileBtn = document.getElementById('mobile')
+			nav = document.querySelector('nav')
+			mobileBtnExit = document.getElementById('mobile-exit');
+
+		mobileBtn.addEventListener('click', () => {
+			nav.classList.add('mobile-menu');
+		})
+		
+		mobileBtnExit.addEventListener('click', () => {
+			nav.classList.remove('mobile-menu');
+		}
+		
+		)
+	</script>
+
+	</body>
+</html>
+  
