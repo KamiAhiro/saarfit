@@ -363,19 +363,15 @@ footer {
   background: #303030;
 }
 
-footer .rechtliches {
-  text-align: right;
-}
-
-footer strong {
+footer .saarfit strong {
   color: var(--primary-color);
 }
 
-footer ul.footer-contact {
+footer .saarfit ul.footer-contact {
   padding-bottom: 1.5em;
 }
 
-footer ul.footer-contact li {
+footer .saarfit ul.footer-contact li {
   color: white;
   font-weight: bold;
   text-align: left;
@@ -384,16 +380,16 @@ footer ul.footer-contact li {
   line-height: 0.25em;
 }
 
-footer ul.footer-contact li a {
+footer .saarfit ul.footer-contact li a {
   text-decoration: none;
   color: white;
 }
 
-footer ul.footer-rechtliches {
+footer .saarfit ul.footer-rechtliches {
   padding-bottom: 0.5em;
 }
 
-footer ul.footer-rechtliches li {
+footer .saarfit ul.footer-rechtliches li {
   color: white;
   font-weight: bold;
   text-align: left;
@@ -402,7 +398,47 @@ footer ul.footer-rechtliches li {
   line-height: 0.25em;
 }
 
-footer ul.footer-rechtliches li a {
+footer .saarfit ul.footer-rechtliches li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .rechtliches strong {
+  color: var(--primary-color);
+}
+
+footer .rechtliches ul.footer-contact {
+  padding-bottom: 1.5em;
+}
+
+footer .rechtliches ul.footer-contact li {
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 1em;
+  font-size: 0.75em;
+  line-height: 0.25em;
+}
+
+footer .rechtliches ul.footer-contact li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .rechtliches ul.footer-rechtliches {
+  padding-bottom: 0.5em;
+}
+
+footer .rechtliches ul.footer-rechtliches li {
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 1em;
+  font-size: 0.75em;
+  line-height: 0.25em;
+}
+
+footer .rechtliches ul.footer-rechtliches li a {
   text-decoration: none;
   color: white;
 }
@@ -519,14 +555,24 @@ footer ul.footer-rechtliches li a {
   footer .container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: max-content auto max-content auto;
-        grid-template-columns: -webkit-max-content auto -webkit-max-content auto;
-        grid-template-columns: max-content auto max-content auto;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
     place-content: unset;
   }
-  footer .container strong {
-    font-size: 2.5em;
+  footer .container .saarfit strong {
+    font-size: 2em;
     margin-right: 0.5em;
+  }
+  footer .container .rechtliches {
+    text-align: right;
+  }
+  footer .container .rechtliches strong {
+    font-size: 2em;
+    margin-right: 0.5em;
+  }
+  footer .container .rechtliches ul.footer-rechtliches li {
+    padding-right: 2em;
+    text-align: right;
   }
 }
 /*# sourceMappingURL=main.css.map */

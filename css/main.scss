@@ -343,39 +343,74 @@ footer {
     padding-bottom: 0.5em;
     padding-left: 1em;
     background: #303030;
-    .rechtliches {
-        text-align: right;
-    }
-    strong {
-        color: var(--primary-color);
-    }
-    ul.footer-contact {
-        padding-bottom: 1.5em;
-        li {
-            color: white;
-            font-weight: bold;
-            text-align: left;
-            margin-top: 1em;
-            font-size: 0.75em;
-            line-height: 0.25em;
-            a {
-                text-decoration: none;
+    .saarfit {
+        strong {
+            color: var(--primary-color);
+        }
+        ul.footer-contact {
+            padding-bottom: 1.5em;
+            li {
                 color: white;
+                font-weight: bold;
+                text-align: left;
+                margin-top: 1em;
+                font-size: 0.75em;
+                line-height: 0.25em;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+        ul.footer-rechtliches {
+            padding-bottom: 0.5em;
+            li {
+                color: white;
+                font-weight: bold;
+                text-align: left;
+                margin-top: 1em;
+                font-size: 0.75em;
+                line-height: 0.25em;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
             }
         }
     }
-    ul.footer-rechtliches {
-        padding-bottom: 0.5em;
-        li {
-            color: white;
-            font-weight: bold;
-            text-align: left;
-            margin-top: 1em;
-            font-size: 0.75em;
-            line-height: 0.25em;
-            a {
-                text-decoration: none;
+    
+    .rechtliches {
+        strong {
+            color: var(--primary-color);
+        }
+        ul.footer-contact {
+            padding-bottom: 1.5em;
+            li {
                 color: white;
+                font-weight: bold;
+                text-align: left;
+                margin-top: 1em;
+                font-size: 0.75em;
+                line-height: 0.25em;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+        ul.footer-rechtliches {
+            padding-bottom: 0.5em;
+            li {
+                color: white;
+                font-weight: bold;
+                text-align: left;
+                margin-top: 1em;
+                font-size: 0.75em;
+                line-height: 0.25em;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
             }
         }
     }
@@ -496,11 +531,26 @@ footer {
 
     footer .container{
         display: grid;
-        grid-template-columns: max-content auto max-content auto;
+        grid-template-columns: 50% 50%;
         place-content: unset;
-        strong {
-            font-size: 2.5em;
-            margin-right: 0.5em;
+        .saarfit {
+            strong {
+                font-size: 2em;
+                margin-right: 0.5em;
+            }
+        }
+        .rechtliches {
+            text-align: right;
+            strong {
+                font-size: 2em;
+                margin-right: 0.5em;
+            }
+            ul.footer-rechtliches {
+                li{
+                    padding-right: 2em;
+                    text-align: right;
+                }
+            }
         }
     }
 }
