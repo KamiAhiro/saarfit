@@ -363,6 +363,10 @@ footer {
   background: #303030;
 }
 
+footer .rechtliches {
+  text-align: right;
+}
+
 footer strong {
   color: var(--primary-color);
 }
@@ -503,6 +507,14 @@ footer ul.footer-rechtliches li a {
   }
   .contact .container .contact-right iframe {
     height: 340px;
+  }
+  .services {
+    display: -ms-grid;
+    display: grid;
+  }
+  .news {
+    display: -ms-grid;
+    display: grid;
   }
   footer .container {
     display: -ms-grid;
